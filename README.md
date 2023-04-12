@@ -21,6 +21,14 @@ tools/dist_test.sh <CONFIG_FILE> <SEG_CHECKPOINT_FILE> <GPU_NUM> --eval mIoU
 tools/dist_test.sh <CONFIG_FILE> <SEG_CHECKPOINT_FILE> <GPU_NUM> --aug-test --eval mIoU
 ```
 
+### Pretrained model
+
+Pretrained model can be download here: [pretrained model](https://download.openmmlab.com/mmsegmentation/v0.5/swin/upernet_swin_base_patch4_window12_512x512_160k_ade20k_pretrain_384x384_22K/upernet_swin_base_patch4_window12_512x512_160k_ade20k_pretrain_384x384_22K_20210531_125459-429057bf.pth)
+
+### WISTE model
+
+WISTE model can be download by [Baidunetdisk.](https://pan.baidu.com/s/1Rh-80oB6Ojbdsm72FuLTdg?pwd=3z3j)
+
 ### Training
 
 To train with pre-trained models, run:
@@ -34,7 +42,7 @@ tools/dist_train.sh <CONFIG_FILE> <GPU_NUM> --options model.pretrained=<PRETRAIN
 
 ### PME
 
-To use PME module, run:
+To use PME module, please run:
 ```
 python ./pme.py
 ```
