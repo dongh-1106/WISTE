@@ -27,7 +27,7 @@ Pretrained model can be download here: [pretrained model](https://download.openm
 
 ### WISTE model
 
-WISTE model can be download by [Baidunetdisk.](https://pan.baidu.com/s/1Rh-80oB6Ojbdsm72FuLTdg?pwd=3z3j)
+WISTE model can be download by [BaiduNetdisk.](https://pan.baidu.com/s/1eQSTrjWHMJv2Pz9pQEy2kQ),extraction code is [covf]
 
 ### Training
 
